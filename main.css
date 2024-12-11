@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 28px;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.images__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.wrapper{
+    background-image: url("./images/brat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__link{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: orangered;
+}
+.hero{
+    padding-top: 90px;
+    padding-bottom: 236px;
+}
+.hero__textbox{
+    width: 679px;
+}
+.hero__title{
+    color: white;
+    font-size: 96px;
+    font-weight: 900;
+}
+.hero__text{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.hero__btn{
+    width: 180px;
+    background-color: orangered;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #555;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.catalog, .track {
+    display: grid;
+    gap: 10px;
+}
+
+.catalog {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.catalog-item {
+    position: relative;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.catalog-item.large {
+    grid-column: span 3;
+    background-color: #ff6f00;
+}
+
+.catalog-item img {
+    width: 100%;
+    height: auto;
+}
+
+.catalog-item span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.2rem;
+}
+
+.track {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.track-item {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.track-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.track-item .content {
+    padding: 10px;
+}
+
+.track-item .date {
+    color: #ff6f00;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.track-item h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+.video{
+    width: 1920px;
+    margin-top: 4039px;
+    height: 500px;
+}
